@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		501F33DF2623CABE00D755FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F33DE2623CABE00D755FE /* main.cpp */; };
 		501F33F52625DC8500D755FE /* hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F33F32625DC8500D755FE /* hello.cpp */; };
+		501F33FA2625E05F00D755FE /* pointClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F33F82625E05F00D755FE /* pointClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		501F33DE2623CABE00D755FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		501F33F32625DC8500D755FE /* hello.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello.cpp; sourceTree = "<group>"; };
 		501F33F42625DC8500D755FE /* hello.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hello.hpp; sourceTree = "<group>"; };
+		501F33F82625E05F00D755FE /* pointClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointClass.cpp; sourceTree = "<group>"; };
+		501F33F92625E05F00D755FE /* pointClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointClass.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +63,29 @@
 		501F33DD2623CABE00D755FE /* c++new */ = {
 			isa = PBXGroup;
 			children = (
+				501F33FE2625E1F300D755FE /* pointClass */,
+				501F33FC2625E14400D755FE /* hello */,
 				501F33DE2623CABE00D755FE /* main.cpp */,
+			);
+			path = "c++new";
+			sourceTree = "<group>";
+		};
+		501F33FC2625E14400D755FE /* hello */ = {
+			isa = PBXGroup;
+			children = (
 				501F33F32625DC8500D755FE /* hello.cpp */,
 				501F33F42625DC8500D755FE /* hello.hpp */,
 			);
-			path = "c++new";
+			name = hello;
+			sourceTree = "<group>";
+		};
+		501F33FE2625E1F300D755FE /* pointClass */ = {
+			isa = PBXGroup;
+			children = (
+				501F33F82625E05F00D755FE /* pointClass.cpp */,
+				501F33F92625E05F00D755FE /* pointClass.hpp */,
+			);
+			path = pointClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				501F33DF2623CABE00D755FE /* main.cpp in Sources */,
+				501F33FA2625E05F00D755FE /* pointClass.cpp in Sources */,
 				501F33F52625DC8500D755FE /* hello.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
