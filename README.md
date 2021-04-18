@@ -19,7 +19,8 @@ void _practiceDisplay (string, string = "", string = ""); // 为函数设置默�
 void _change(const string&); // 使用 const 保护数据
 ```
 ### 函数的返回值
-```
+
+```c++
 int& _functionReturn(int); // 返回引用
 
 float* _functionReturnInput(int& n); // 返回指针
