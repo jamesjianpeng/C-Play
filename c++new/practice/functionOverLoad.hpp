@@ -10,6 +10,8 @@ using namespace std;
 
 double _max(double, double);
 int _max(int, int);
+int _max(int, int, int);
+//int _max(int, int = 0, int = 0) // 会报错
 char _max(char, char);
 
 
