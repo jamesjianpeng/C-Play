@@ -7,38 +7,20 @@
 
 #include <iostream>
 
-#include "hello.hpp"
+//#include "hello.hpp"
+//#include "pointClass.hpp"
+//#include "fs.hpp"
+#include "myString.hpp"
 
 #define	endl '\n'
 
 using namespace std;
 
-class Point {
-private:
-    double x, y;
-public:
-    Point(){};
-    Point(double a, double b){
-        x = a;
-        y = b;
-    }
-    void Setxy (double a, double b) {
-        x = a;
-        y = b;
-    }
-    void Display () {
-        cout << x << "\t" << y << endl;
-    }
-};
-
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    sayHello();
-    Point a;
-    Point b(18.5, 10.6);
-    a.Setxy(10.6, 18.5);
-    a.Display();
-    b.Display();
-
+//    sayHello();
+//    displayPoint();
+//    fs();
+//    computeScore();
+    stringSwap();
     return 0;
 }
