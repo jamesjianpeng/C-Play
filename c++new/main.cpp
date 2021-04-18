@@ -10,7 +10,12 @@
 //#include "hello.hpp"
 //#include "pointClass.hpp"
 //#include "fs.hpp"
-#include "myString.hpp"
+//#include "myString.hpp"
+//#include "avecount.hpp"
+//#include "functionDefaultOptions.hpp"
+//#include "functionConstOptions.hpp"
+//#include "functionReturn.hpp"
+#include "functionOverLoad.hpp"
 
 #define	endl '\n'
 
@@ -21,6 +26,11 @@ int main(int argc, const char * argv[]) {
 //    displayPoint();
 //    fs();
 //    computeScore();
-    stringSwap();
+//    stringSwap();
+//    avecount();
+//    practiceDisplay();
+//    change();
+//    functionReturn();
+    maxTest();
     return 0;
 }
