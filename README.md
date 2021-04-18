@@ -15,4 +15,16 @@ void swap (int[]); // 对象指针作为函数参数
 void swap1 (string&, string&); // 引用作为函数参数
 
 void _practiceDisplay (string, string = "", string = ""); // 为函数设置默认值
+
+void _change(const string&); // 使用 const 保护数据
+```
+### 函数的返回值
+```
+int& _functionReturn(int); // 返回引用
+
+float* _functionReturnInput(int& n); // 返回指针
+
+string _functonReturnValue(const int); // 返回对象（值）
+
+inline int isnumber(const char); // 内联函数
 ```
