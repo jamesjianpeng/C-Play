@@ -42,3 +42,41 @@ char _max(char, char);
 // 使用联默认参数，既不能对少于参数个数的函数进行重载
 // 另外，仅有函数返回值不同也是区分不了重载函数
 ```
+
+### 函数模版
+
+语法1：
+```c++
+template <class T>
+T functionName(function params) {
+    // statement
+}
+```
+语法2：
+```c++
+template <typename T>
+T functionName(function params) {
+    // statement
+}
+```
+
+举例：
+```c++
+template <class T>
+T _maxTemplate(T m1, T m2) {
+    return (m1 > m2) ? m1 : m2;
+}
+
+template <typename  T>
+T min(T m1, T m2) {
+    return (m1 < m2) ? m1 : m2;
+}
+
+```
+
+调用：
+```
+_maxTemplate('a', 'b')
+
+min<float>(2.3, 3.3)
+```

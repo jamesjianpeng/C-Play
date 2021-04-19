@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../c++new/practice/functionTemplate.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../c++new/practice/functionTemplate.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/pengjian/swift/c++new/c++new/practice/functionTemplate.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/pengjian/swift/c++new/c++new/practice/functionTemplate.hpp">
+   </FileRef>
+   <FileRef
       location = "group:../README.md">
    </FileRef>
    <FileRef

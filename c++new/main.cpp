@@ -15,7 +15,8 @@
 //#include "functionDefaultOptions.hpp"
 //#include "functionConstOptions.hpp"
 //#include "functionReturn.hpp"
-#include "functionOverLoad.hpp"
+//#include "functionOverLoad.hpp"
+#include "functionTemplate.hpp"
 
 #define	endl '\n'
 
@@ -31,6 +32,8 @@ int main(int argc, const char * argv[]) {
 //    practiceDisplay();
 //    change();
 //    functionReturn();
-    maxTest();
+//    maxTest();
+//    functionTemplate();
+    functionTemplate2();
     return 0;
 }
