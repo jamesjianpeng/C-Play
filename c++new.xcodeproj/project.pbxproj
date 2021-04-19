@@ -10,6 +10,14 @@
 		501F33DF2623CABE00D755FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F33DE2623CABE00D755FE /* main.cpp */; };
 		501F33F52625DC8500D755FE /* hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F33F32625DC8500D755FE /* hello.cpp */; };
 		501F33FA2625E05F00D755FE /* pointClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F33F82625E05F00D755FE /* pointClass.cpp */; };
+		501F340326285D7400D755FE /* fs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F340126285D7400D755FE /* fs.cpp */; };
+		501F3408262862CE00D755FE /* score.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3407262862CE00D755FE /* score.cpp */; };
+		501F3414262B025700D755FE /* myString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3412262B025700D755FE /* myString.cpp */; };
+		501F341B262BD8FD00D755FE /* avecount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3419262BD8FD00D755FE /* avecount.cpp */; };
+		501F3420262BDC5D00D755FE /* functionDefaultOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F341E262BDC5D00D755FE /* functionDefaultOptions.cpp */; };
+		501F3424262BE12200D755FE /* functionConstOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3422262BE12200D755FE /* functionConstOptions.cpp */; };
+		501F3428262BE32000D755FE /* functionReturn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3426262BE32000D755FE /* functionReturn.cpp */; };
+		501F342C262C405C00D755FE /* functionOverLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F342A262C405C00D755FE /* functionOverLoad.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +39,22 @@
 		501F33F42625DC8500D755FE /* hello.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hello.hpp; sourceTree = "<group>"; };
 		501F33F82625E05F00D755FE /* pointClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointClass.cpp; sourceTree = "<group>"; };
 		501F33F92625E05F00D755FE /* pointClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointClass.hpp; sourceTree = "<group>"; };
+		501F340126285D7400D755FE /* fs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fs.cpp; sourceTree = "<group>"; };
+		501F340226285D7400D755FE /* fs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fs.hpp; sourceTree = "<group>"; };
+		501F340526285DF400D755FE /* file.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
+		501F3407262862CE00D755FE /* score.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = score.cpp; sourceTree = "<group>"; };
+		501F3412262B025700D755FE /* myString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myString.cpp; sourceTree = "<group>"; };
+		501F3413262B025700D755FE /* myString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myString.hpp; sourceTree = "<group>"; };
+		501F3419262BD8FD00D755FE /* avecount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = avecount.cpp; sourceTree = "<group>"; };
+		501F341A262BD8FD00D755FE /* avecount.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = avecount.hpp; sourceTree = "<group>"; };
+		501F341E262BDC5D00D755FE /* functionDefaultOptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionDefaultOptions.cpp; sourceTree = "<group>"; };
+		501F341F262BDC5D00D755FE /* functionDefaultOptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionDefaultOptions.hpp; sourceTree = "<group>"; };
+		501F3422262BE12200D755FE /* functionConstOptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionConstOptions.cpp; sourceTree = "<group>"; };
+		501F3423262BE12200D755FE /* functionConstOptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionConstOptions.hpp; sourceTree = "<group>"; };
+		501F3426262BE32000D755FE /* functionReturn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionReturn.cpp; sourceTree = "<group>"; };
+		501F3427262BE32000D755FE /* functionReturn.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionReturn.hpp; sourceTree = "<group>"; };
+		501F342A262C405C00D755FE /* functionOverLoad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionOverLoad.cpp; sourceTree = "<group>"; };
+		501F342B262C405C00D755FE /* functionOverLoad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionOverLoad.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +87,9 @@
 		501F33DD2623CABE00D755FE /* c++new */ = {
 			isa = PBXGroup;
 			children = (
+				501F3418262BD8AA00D755FE /* practice */,
+				501F3411262B023A00D755FE /* string */,
+				501F340026285D5B00D755FE /* fs */,
 				501F33FE2625E1F300D755FE /* pointClass */,
 				501F33FC2625E14400D755FE /* hello */,
 				501F33DE2623CABE00D755FE /* main.cpp */,
@@ -86,6 +113,43 @@
 				501F33F92625E05F00D755FE /* pointClass.hpp */,
 			);
 			path = pointClass;
+			sourceTree = "<group>";
+		};
+		501F340026285D5B00D755FE /* fs */ = {
+			isa = PBXGroup;
+			children = (
+				501F340126285D7400D755FE /* fs.cpp */,
+				501F340226285D7400D755FE /* fs.hpp */,
+				501F340526285DF400D755FE /* file.txt */,
+				501F3407262862CE00D755FE /* score.cpp */,
+			);
+			path = fs;
+			sourceTree = "<group>";
+		};
+		501F3411262B023A00D755FE /* string */ = {
+			isa = PBXGroup;
+			children = (
+				501F3412262B025700D755FE /* myString.cpp */,
+				501F3413262B025700D755FE /* myString.hpp */,
+			);
+			path = string;
+			sourceTree = "<group>";
+		};
+		501F3418262BD8AA00D755FE /* practice */ = {
+			isa = PBXGroup;
+			children = (
+				501F3419262BD8FD00D755FE /* avecount.cpp */,
+				501F341A262BD8FD00D755FE /* avecount.hpp */,
+				501F341E262BDC5D00D755FE /* functionDefaultOptions.cpp */,
+				501F341F262BDC5D00D755FE /* functionDefaultOptions.hpp */,
+				501F3422262BE12200D755FE /* functionConstOptions.cpp */,
+				501F3423262BE12200D755FE /* functionConstOptions.hpp */,
+				501F3426262BE32000D755FE /* functionReturn.cpp */,
+				501F3427262BE32000D755FE /* functionReturn.hpp */,
+				501F342A262C405C00D755FE /* functionOverLoad.cpp */,
+				501F342B262C405C00D755FE /* functionOverLoad.hpp */,
+			);
+			path = practice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +208,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501F3414262B025700D755FE /* myString.cpp in Sources */,
+				501F3408262862CE00D755FE /* score.cpp in Sources */,
+				501F3420262BDC5D00D755FE /* functionDefaultOptions.cpp in Sources */,
+				501F3428262BE32000D755FE /* functionReturn.cpp in Sources */,
+				501F3424262BE12200D755FE /* functionConstOptions.cpp in Sources */,
+				501F340326285D7400D755FE /* fs.cpp in Sources */,
 				501F33DF2623CABE00D755FE /* main.cpp in Sources */,
+				501F341B262BD8FD00D755FE /* avecount.cpp in Sources */,
 				501F33FA2625E05F00D755FE /* pointClass.cpp in Sources */,
 				501F33F52625DC8500D755FE /* hello.cpp in Sources */,
+				501F342C262C405C00D755FE /* functionOverLoad.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
