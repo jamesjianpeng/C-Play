@@ -5,9 +5,16 @@
 //  Created by 彭涧 on 2021/4/20.
 //
 
-#ifndef functionPratice_hpp
-#define functionPratice_hpp
+//
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <functional>
 
-#include <stdio.h>
+using namespace std;
 
-#endif /* functionPratice_hpp */
+void testChar();
+void testInt();
+void testNum();
+void testArray();
+void functionPratice();

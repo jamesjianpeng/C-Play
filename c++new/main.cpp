@@ -16,7 +16,8 @@
 //#include "functionConstOptions.hpp"
 //#include "functionReturn.hpp"
 //#include "functionOverLoad.hpp"
-#include "functionTemplate.hpp"
+//#include "functionTemplate.hpp"
+#include "functionPratice.hpp"
 
 #define	endl '\n'
 
@@ -34,6 +35,6 @@ int main(int argc, const char * argv[]) {
 //    functionReturn();
 //    maxTest();
 //    functionTemplate();
-    functionTemplate2();
+    functionPratice();
     return 0;
 }
