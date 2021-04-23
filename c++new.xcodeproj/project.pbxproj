@@ -20,6 +20,7 @@
 		501F342C262C405C00D755FE /* functionOverLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F342A262C405C00D755FE /* functionOverLoad.cpp */; };
 		501F3437262DECE000D755FE /* functionTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3436262DECE000D755FE /* functionTemplate.cpp */; };
 		501F343B262DF50900D755FE /* functionPratice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3439262DF50900D755FE /* functionPratice.cpp */; };
+		501F34412631AB8900D755FE /* definedClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F343F2631AB8900D755FE /* definedClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,8 @@
 		501F3436262DECE000D755FE /* functionTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = functionTemplate.cpp; sourceTree = "<group>"; };
 		501F3439262DF50900D755FE /* functionPratice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionPratice.cpp; sourceTree = "<group>"; };
 		501F343A262DF50900D755FE /* functionPratice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionPratice.hpp; sourceTree = "<group>"; };
+		501F343F2631AB8900D755FE /* definedClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = definedClass.cpp; sourceTree = "<group>"; };
+		501F34402631AB8900D755FE /* definedClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = definedClass.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 		501F33DD2623CABE00D755FE /* c++new */ = {
 			isa = PBXGroup;
 			children = (
+				501F343E2631AB5C00D755FE /* 4-类和对象 */,
 				501F3418262BD8AA00D755FE /* practice */,
 				501F3411262B023A00D755FE /* string */,
 				501F340026285D5B00D755FE /* fs */,
@@ -162,6 +166,15 @@
 			path = practice;
 			sourceTree = "<group>";
 		};
+		501F343E2631AB5C00D755FE /* 4-类和对象 */ = {
+			isa = PBXGroup;
+			children = (
+				501F343F2631AB8900D755FE /* definedClass.cpp */,
+				501F34402631AB8900D755FE /* definedClass.hpp */,
+			);
+			path = "4-类和对象";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501F34412631AB8900D755FE /* definedClass.cpp in Sources */,
 				501F3414262B025700D755FE /* myString.cpp in Sources */,
 				501F3408262862CE00D755FE /* score.cpp in Sources */,
 				501F343B262DF50900D755FE /* functionPratice.cpp in Sources */,
