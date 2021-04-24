@@ -21,6 +21,14 @@
 		501F3437262DECE000D755FE /* functionTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3436262DECE000D755FE /* functionTemplate.cpp */; };
 		501F343B262DF50900D755FE /* functionPratice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3439262DF50900D755FE /* functionPratice.cpp */; };
 		501F34412631AB8900D755FE /* definedClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F343F2631AB8900D755FE /* definedClass.cpp */; };
+		501F34452633B25A00D755FE /* constructorClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F34432633B25A00D755FE /* constructorClass.cpp */; };
+		501F34492633BDE100D755FE /* constructorNewClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F34472633BDE100D755FE /* constructorNewClass.cpp */; };
+		501F344D2633C1B500D755FE /* constructorDefaultValueClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F344B2633C1B500D755FE /* constructorDefaultValueClass.cpp */; };
+		501F34512633CD6400D755FE /* complexConstructorClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F344F2633CD6400D755FE /* complexConstructorClass.cpp */; };
+		501F3455263443BC00D755FE /* memberFunOveloadClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F3453263443BC00D755FE /* memberFunOveloadClass.cpp */; };
+		501F34592634485C00D755FE /* thisClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F34572634485C00D755FE /* thisClass.cpp */; };
+		501F345D26346D7C00D755FE /* dataMemberIsCustomObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F345B26346D7C00D755FE /* dataMemberIsCustomObject.cpp */; };
+		501F3461263472BF00D755FE /* ObjectAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F345F263472BF00D755FE /* ObjectAttribute.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +72,22 @@
 		501F343A262DF50900D755FE /* functionPratice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionPratice.hpp; sourceTree = "<group>"; };
 		501F343F2631AB8900D755FE /* definedClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = definedClass.cpp; sourceTree = "<group>"; };
 		501F34402631AB8900D755FE /* definedClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = definedClass.hpp; sourceTree = "<group>"; };
+		501F34432633B25A00D755FE /* constructorClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constructorClass.cpp; sourceTree = "<group>"; };
+		501F34442633B25A00D755FE /* constructorClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = constructorClass.hpp; sourceTree = "<group>"; };
+		501F34472633BDE100D755FE /* constructorNewClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constructorNewClass.cpp; sourceTree = "<group>"; };
+		501F34482633BDE100D755FE /* constructorNewClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = constructorNewClass.hpp; sourceTree = "<group>"; };
+		501F344B2633C1B500D755FE /* constructorDefaultValueClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constructorDefaultValueClass.cpp; sourceTree = "<group>"; };
+		501F344C2633C1B500D755FE /* constructorDefaultValueClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = constructorDefaultValueClass.hpp; sourceTree = "<group>"; };
+		501F344F2633CD6400D755FE /* complexConstructorClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = complexConstructorClass.cpp; sourceTree = "<group>"; };
+		501F34502633CD6400D755FE /* complexConstructorClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = complexConstructorClass.hpp; sourceTree = "<group>"; };
+		501F3453263443BC00D755FE /* memberFunOveloadClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = memberFunOveloadClass.cpp; sourceTree = "<group>"; };
+		501F3454263443BC00D755FE /* memberFunOveloadClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = memberFunOveloadClass.hpp; sourceTree = "<group>"; };
+		501F34572634485C00D755FE /* thisClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = thisClass.cpp; sourceTree = "<group>"; };
+		501F34582634485C00D755FE /* thisClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = thisClass.hpp; sourceTree = "<group>"; };
+		501F345B26346D7C00D755FE /* dataMemberIsCustomObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dataMemberIsCustomObject.cpp; sourceTree = "<group>"; };
+		501F345C26346D7C00D755FE /* dataMemberIsCustomObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dataMemberIsCustomObject.hpp; sourceTree = "<group>"; };
+		501F345F263472BF00D755FE /* ObjectAttribute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectAttribute.cpp; sourceTree = "<group>"; };
+		501F3460263472BF00D755FE /* ObjectAttribute.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ObjectAttribute.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +195,22 @@
 			children = (
 				501F343F2631AB8900D755FE /* definedClass.cpp */,
 				501F34402631AB8900D755FE /* definedClass.hpp */,
+				501F34432633B25A00D755FE /* constructorClass.cpp */,
+				501F34442633B25A00D755FE /* constructorClass.hpp */,
+				501F34472633BDE100D755FE /* constructorNewClass.cpp */,
+				501F34482633BDE100D755FE /* constructorNewClass.hpp */,
+				501F344B2633C1B500D755FE /* constructorDefaultValueClass.cpp */,
+				501F344C2633C1B500D755FE /* constructorDefaultValueClass.hpp */,
+				501F344F2633CD6400D755FE /* complexConstructorClass.cpp */,
+				501F34502633CD6400D755FE /* complexConstructorClass.hpp */,
+				501F3453263443BC00D755FE /* memberFunOveloadClass.cpp */,
+				501F3454263443BC00D755FE /* memberFunOveloadClass.hpp */,
+				501F34572634485C00D755FE /* thisClass.cpp */,
+				501F34582634485C00D755FE /* thisClass.hpp */,
+				501F345B26346D7C00D755FE /* dataMemberIsCustomObject.cpp */,
+				501F345C26346D7C00D755FE /* dataMemberIsCustomObject.hpp */,
+				501F345F263472BF00D755FE /* ObjectAttribute.cpp */,
+				501F3460263472BF00D755FE /* ObjectAttribute.hpp */,
 			);
 			path = "4-类和对象";
 			sourceTree = "<group>";
@@ -231,19 +271,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501F344D2633C1B500D755FE /* constructorDefaultValueClass.cpp in Sources */,
 				501F34412631AB8900D755FE /* definedClass.cpp in Sources */,
 				501F3414262B025700D755FE /* myString.cpp in Sources */,
 				501F3408262862CE00D755FE /* score.cpp in Sources */,
+				501F34592634485C00D755FE /* thisClass.cpp in Sources */,
 				501F343B262DF50900D755FE /* functionPratice.cpp in Sources */,
+				501F3455263443BC00D755FE /* memberFunOveloadClass.cpp in Sources */,
 				501F3420262BDC5D00D755FE /* functionDefaultOptions.cpp in Sources */,
+				501F34512633CD6400D755FE /* complexConstructorClass.cpp in Sources */,
 				501F3437262DECE000D755FE /* functionTemplate.cpp in Sources */,
 				501F3428262BE32000D755FE /* functionReturn.cpp in Sources */,
 				501F3424262BE12200D755FE /* functionConstOptions.cpp in Sources */,
+				501F345D26346D7C00D755FE /* dataMemberIsCustomObject.cpp in Sources */,
 				501F340326285D7400D755FE /* fs.cpp in Sources */,
+				501F34452633B25A00D755FE /* constructorClass.cpp in Sources */,
+				501F3461263472BF00D755FE /* ObjectAttribute.cpp in Sources */,
 				501F33DF2623CABE00D755FE /* main.cpp in Sources */,
 				501F341B262BD8FD00D755FE /* avecount.cpp in Sources */,
 				501F33FA2625E05F00D755FE /* pointClass.cpp in Sources */,
 				501F33F52625DC8500D755FE /* hello.cpp in Sources */,
+				501F34492633BDE100D755FE /* constructorNewClass.cpp in Sources */,
 				501F342C262C405C00D755FE /* functionOverLoad.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

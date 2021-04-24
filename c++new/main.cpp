@@ -18,7 +18,15 @@
 //#include "functionOverLoad.hpp"
 //#include "functionTemplate.hpp"
 //#include "functionPratice.hpp"
-#include "definedClass.hpp"
+//#include "definedClass.hpp"
+//#include "constructorClass.hpp"
+//#include "constructorNewClass.hpp"
+//#include "constructorDefaultValueClass.hpp"
+//#include "complexConstructorClass.hpp"
+//#include "memberFunOveloadClass.hpp"
+//#include "thisClass.hpp"
+//#include "dataMemberIsCustomObject.hpp"
+#include "ObjectAttribute.hpp"
 
 #define	endl '\n'
 
@@ -37,6 +45,14 @@ int main(int argc, const char * argv[]) {
 //    maxTest();
 //    functionTemplate();
 //    functionPratice();
-    _print();
+//    _print();
+//    testConstructor();
+//    testConstructorNew();
+//    testConstructorDefaultValueClass();
+//    testComplexConstructroClass();
+//    testMax();
+//    testThisClass();
+//    testDataMemberCustomObject();
+    testObjectAttribute();
     return 0;
 }
