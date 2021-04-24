@@ -41,7 +41,7 @@ int getx2 (PointF &f) {
 }
 void testObjectAttribute () {
     PointF f(1,2);
-    cout << getx(f) << endl;
-    cout << getx(&f) << endl;
-    cout << getx2(f) << endl;
+    cout << getx(f) << endl; // 函数参数是对象的调用
+    cout << getx(&f) << endl; // 函数参数是对象指针的调用
+    cout << getx2(f) << endl; // 函数参数是对象引用的调用
 }
