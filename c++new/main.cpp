@@ -27,6 +27,7 @@
 //#include "thisClass.hpp"
 //#include "dataMemberIsCustomObject.hpp"
 #include "ObjectAttribute.hpp"
+//#include "classAttribute.hpp"
 
 #define	endl '\n'
 
@@ -54,5 +55,6 @@ int main(int argc, const char * argv[]) {
 //    testThisClass();
 //    testDataMemberCustomObject();
     testObjectAttribute();
+//    testClassAttribute();
     return 0;
 }

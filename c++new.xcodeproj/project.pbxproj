@@ -29,6 +29,7 @@
 		501F34592634485C00D755FE /* thisClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F34572634485C00D755FE /* thisClass.cpp */; };
 		501F345D26346D7C00D755FE /* dataMemberIsCustomObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F345B26346D7C00D755FE /* dataMemberIsCustomObject.cpp */; };
 		501F3461263472BF00D755FE /* ObjectAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F345F263472BF00D755FE /* ObjectAttribute.cpp */; };
+		501F34652634EB4B00D755FE /* classAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F34632634EB4B00D755FE /* classAttribute.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +89,8 @@
 		501F345C26346D7C00D755FE /* dataMemberIsCustomObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dataMemberIsCustomObject.hpp; sourceTree = "<group>"; };
 		501F345F263472BF00D755FE /* ObjectAttribute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectAttribute.cpp; sourceTree = "<group>"; };
 		501F3460263472BF00D755FE /* ObjectAttribute.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ObjectAttribute.hpp; sourceTree = "<group>"; };
+		501F34632634EB4B00D755FE /* classAttribute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classAttribute.cpp; sourceTree = "<group>"; };
+		501F34642634EB4B00D755FE /* classAttribute.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = classAttribute.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +214,8 @@
 				501F345C26346D7C00D755FE /* dataMemberIsCustomObject.hpp */,
 				501F345F263472BF00D755FE /* ObjectAttribute.cpp */,
 				501F3460263472BF00D755FE /* ObjectAttribute.hpp */,
+				501F34632634EB4B00D755FE /* classAttribute.cpp */,
+				501F34642634EB4B00D755FE /* classAttribute.hpp */,
 			);
 			path = "4-类和对象";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				501F344D2633C1B500D755FE /* constructorDefaultValueClass.cpp in Sources */,
 				501F34412631AB8900D755FE /* definedClass.cpp in Sources */,
 				501F3414262B025700D755FE /* myString.cpp in Sources */,
+				501F34652634EB4B00D755FE /* classAttribute.cpp in Sources */,
 				501F3408262862CE00D755FE /* score.cpp in Sources */,
 				501F34592634485C00D755FE /* thisClass.cpp in Sources */,
 				501F343B262DF50900D755FE /* functionPratice.cpp in Sources */,
