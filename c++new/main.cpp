@@ -26,8 +26,9 @@
 //#include "memberFunOveloadClass.hpp"
 //#include "thisClass.hpp"
 //#include "dataMemberIsCustomObject.hpp"
-#include "ObjectAttribute.hpp"
+//#include "ObjectAttribute.hpp"
 //#include "classAttribute.hpp"
+#include "objectInit.hpp"
 
 #define	endl '\n'
 
@@ -54,7 +55,8 @@ int main(int argc, const char * argv[]) {
 //    testMax();
 //    testThisClass();
 //    testDataMemberCustomObject();
-    testObjectAttribute();
+//    testObjectAttribute();
 //    testClassAttribute();
+    testObjectInit();
     return 0;
 }

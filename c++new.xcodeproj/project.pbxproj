@@ -30,6 +30,7 @@
 		501F345D26346D7C00D755FE /* dataMemberIsCustomObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F345B26346D7C00D755FE /* dataMemberIsCustomObject.cpp */; };
 		501F3461263472BF00D755FE /* ObjectAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F345F263472BF00D755FE /* ObjectAttribute.cpp */; };
 		501F34652634EB4B00D755FE /* classAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F34632634EB4B00D755FE /* classAttribute.cpp */; };
+		506D39F726385E8D0094D83C /* objectInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506D39F526385E8D0094D83C /* objectInit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +92,8 @@
 		501F3460263472BF00D755FE /* ObjectAttribute.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ObjectAttribute.hpp; sourceTree = "<group>"; };
 		501F34632634EB4B00D755FE /* classAttribute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classAttribute.cpp; sourceTree = "<group>"; };
 		501F34642634EB4B00D755FE /* classAttribute.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = classAttribute.hpp; sourceTree = "<group>"; };
+		506D39F526385E8D0094D83C /* objectInit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objectInit.cpp; sourceTree = "<group>"; };
+		506D39F626385E8D0094D83C /* objectInit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = objectInit.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,7 @@
 		501F33DD2623CABE00D755FE /* c++new */ = {
 			isa = PBXGroup;
 			children = (
+				506D39F4263855D40094D83C /* 5-特殊函数和成员 */,
 				501F343E2631AB5C00D755FE /* 4-类和对象 */,
 				501F3418262BD8AA00D755FE /* practice */,
 				501F3411262B023A00D755FE /* string */,
@@ -220,6 +224,15 @@
 			path = "4-类和对象";
 			sourceTree = "<group>";
 		};
+		506D39F4263855D40094D83C /* 5-特殊函数和成员 */ = {
+			isa = PBXGroup;
+			children = (
+				506D39F526385E8D0094D83C /* objectInit.cpp */,
+				506D39F626385E8D0094D83C /* objectInit.hpp */,
+			);
+			path = "5-特殊函数和成员";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,6 +299,7 @@
 				501F3455263443BC00D755FE /* memberFunOveloadClass.cpp in Sources */,
 				501F3420262BDC5D00D755FE /* functionDefaultOptions.cpp in Sources */,
 				501F34512633CD6400D755FE /* complexConstructorClass.cpp in Sources */,
+				506D39F726385E8D0094D83C /* objectInit.cpp in Sources */,
 				501F3437262DECE000D755FE /* functionTemplate.cpp in Sources */,
 				501F3428262BE32000D755FE /* functionReturn.cpp in Sources */,
 				501F3424262BE12200D755FE /* functionConstOptions.cpp in Sources */,
