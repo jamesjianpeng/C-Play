@@ -31,6 +31,7 @@
 		501F3461263472BF00D755FE /* ObjectAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F345F263472BF00D755FE /* ObjectAttribute.cpp */; };
 		501F34652634EB4B00D755FE /* classAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F34632634EB4B00D755FE /* classAttribute.cpp */; };
 		506D39F726385E8D0094D83C /* objectInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506D39F526385E8D0094D83C /* objectInit.cpp */; };
+		506D39FB26386F8E0094D83C /* staticClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506D39F926386F8E0094D83C /* staticClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,6 +95,8 @@
 		501F34642634EB4B00D755FE /* classAttribute.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = classAttribute.hpp; sourceTree = "<group>"; };
 		506D39F526385E8D0094D83C /* objectInit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objectInit.cpp; sourceTree = "<group>"; };
 		506D39F626385E8D0094D83C /* objectInit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = objectInit.hpp; sourceTree = "<group>"; };
+		506D39F926386F8E0094D83C /* staticClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = staticClass.cpp; sourceTree = "<group>"; };
+		506D39FA26386F8E0094D83C /* staticClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = staticClass.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +232,8 @@
 			children = (
 				506D39F526385E8D0094D83C /* objectInit.cpp */,
 				506D39F626385E8D0094D83C /* objectInit.hpp */,
+				506D39F926386F8E0094D83C /* staticClass.cpp */,
+				506D39FA26386F8E0094D83C /* staticClass.hpp */,
 			);
 			path = "5-特殊函数和成员";
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				501F344D2633C1B500D755FE /* constructorDefaultValueClass.cpp in Sources */,
 				501F34412631AB8900D755FE /* definedClass.cpp in Sources */,
 				501F3414262B025700D755FE /* myString.cpp in Sources */,
+				506D39FB26386F8E0094D83C /* staticClass.cpp in Sources */,
 				501F34652634EB4B00D755FE /* classAttribute.cpp in Sources */,
 				501F3408262862CE00D755FE /* score.cpp in Sources */,
 				501F34592634485C00D755FE /* thisClass.cpp in Sources */,

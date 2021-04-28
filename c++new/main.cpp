@@ -28,7 +28,8 @@
 //#include "dataMemberIsCustomObject.hpp"
 //#include "ObjectAttribute.hpp"
 //#include "classAttribute.hpp"
-#include "objectInit.hpp"
+//#include "objectInit.hpp"
+#include "staticClass.hpp"
 
 #define	endl '\n'
 
@@ -57,6 +58,7 @@ int main(int argc, const char * argv[]) {
 //    testDataMemberCustomObject();
 //    testObjectAttribute();
 //    testClassAttribute();
-    testObjectInit();
+//    testObjectInit();
+    testStaticClass();
     return 0;
 }
