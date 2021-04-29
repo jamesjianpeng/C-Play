@@ -29,7 +29,9 @@
 //#include "ObjectAttribute.hpp"
 //#include "classAttribute.hpp"
 //#include "objectInit.hpp"
-#include "staticClass.hpp"
+//#include "staticClass.hpp"
+//#include "documentSpecification.hpp"
+#include "friendFunction.hpp"
 
 #define	endl '\n'
 
@@ -59,6 +61,8 @@ int main(int argc, const char * argv[]) {
 //    testObjectAttribute();
 //    testClassAttribute();
 //    testObjectInit();
-    testStaticClass();
+//    testStaticClass();
+//    testDocumentSpecification();
+    testFriendFunction();
     return 0;
 }
