@@ -34,6 +34,7 @@
 		506D39FB26386F8E0094D83C /* staticClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506D39F926386F8E0094D83C /* staticClass.cpp */; };
 		50A3845F2639CB2E007169F9 /* friendFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3845D2639CB2E007169F9 /* friendFunction.cpp */; };
 		50A384632639CB85007169F9 /* documentSpecification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A384612639CB85007169F9 /* documentSpecification.cpp */; };
+		50DBBCB7263C279A000C9093 /* constObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DBBCB5263C279A000C9093 /* constObject.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +104,8 @@
 		50A3845E2639CB2E007169F9 /* friendFunction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = friendFunction.hpp; sourceTree = "<group>"; };
 		50A384612639CB85007169F9 /* documentSpecification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = documentSpecification.cpp; sourceTree = "<group>"; };
 		50A384622639CB85007169F9 /* documentSpecification.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = documentSpecification.hpp; sourceTree = "<group>"; };
+		50DBBCB5263C279A000C9093 /* constObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constObject.cpp; sourceTree = "<group>"; };
+		50DBBCB6263C279A000C9093 /* constObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = constObject.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +247,8 @@
 				506D39FA26386F8E0094D83C /* staticClass.hpp */,
 				50A3845D2639CB2E007169F9 /* friendFunction.cpp */,
 				50A3845E2639CB2E007169F9 /* friendFunction.hpp */,
+				50DBBCB5263C279A000C9093 /* constObject.cpp */,
+				50DBBCB6263C279A000C9093 /* constObject.hpp */,
 			);
 			path = "5-特殊函数和成员";
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 				501F343B262DF50900D755FE /* functionPratice.cpp in Sources */,
 				501F3455263443BC00D755FE /* memberFunOveloadClass.cpp in Sources */,
 				501F3420262BDC5D00D755FE /* functionDefaultOptions.cpp in Sources */,
+				50DBBCB7263C279A000C9093 /* constObject.cpp in Sources */,
 				50A384632639CB85007169F9 /* documentSpecification.cpp in Sources */,
 				501F34512633CD6400D755FE /* complexConstructorClass.cpp in Sources */,
 				506D39F726385E8D0094D83C /* objectInit.cpp in Sources */,

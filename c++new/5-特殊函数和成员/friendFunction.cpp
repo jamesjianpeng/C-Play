@@ -54,6 +54,7 @@ int PointM::getm() {
 }
 
 // 3. 将一个类说明为另一个类的友元
+// 当一个类要和另一个类协同工作时，使一个类成为另一个类的友元是很有用的
 PointG::PointG(int a, PointK &r, int b){
     g = a;
     r.k = b;

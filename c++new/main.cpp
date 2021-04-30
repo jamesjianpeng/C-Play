@@ -31,7 +31,8 @@
 //#include "objectInit.hpp"
 //#include "staticClass.hpp"
 //#include "documentSpecification.hpp"
-#include "friendFunction.hpp"
+//#include "friendFunction.hpp"
+#include "constObject.hpp"
 
 #define	endl '\n'
 
@@ -63,6 +64,7 @@ int main(int argc, const char * argv[]) {
 //    testObjectInit();
 //    testStaticClass();
 //    testDocumentSpecification();
-    testFriendFunction();
+//    testFriendFunction();
+    testConstObject();
     return 0;
 }
