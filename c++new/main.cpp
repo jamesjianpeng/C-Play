@@ -32,7 +32,10 @@
 //#include "staticClass.hpp"
 //#include "documentSpecification.hpp"
 //#include "friendFunction.hpp"
-#include "constObject.hpp"
+//#include "constObject.hpp"
+//#include "arrayAndClass.hpp"
+//#include "functionObject.hpp"
+#include "extendsClass.hpp"
 
 #define	endl '\n'
 
@@ -65,6 +68,9 @@ int main(int argc, const char * argv[]) {
 //    testStaticClass();
 //    testDocumentSpecification();
 //    testFriendFunction();
-    testConstObject();
+//    testConstObject();
+//    testArrayAndClass();
+//    testTestFunction();
+    testExtendsClass();
     return 0;
 }

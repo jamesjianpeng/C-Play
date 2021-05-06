@@ -35,6 +35,9 @@
 		50A3845F2639CB2E007169F9 /* friendFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3845D2639CB2E007169F9 /* friendFunction.cpp */; };
 		50A384632639CB85007169F9 /* documentSpecification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A384612639CB85007169F9 /* documentSpecification.cpp */; };
 		50DBBCB7263C279A000C9093 /* constObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DBBCB5263C279A000C9093 /* constObject.cpp */; };
+		50DBBCBA263C5D2D000C9093 /* arrayAndClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DBBCB8263C5D2D000C9093 /* arrayAndClass.cpp */; };
+		50DBBCBD264048C4000C9093 /* functionObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DBBCBB264048C4000C9093 /* functionObject.cpp */; };
+		50DBBCC126443C9C000C9093 /* extendsClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DBBCBF26443C9C000C9093 /* extendsClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -106,6 +109,12 @@
 		50A384622639CB85007169F9 /* documentSpecification.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = documentSpecification.hpp; sourceTree = "<group>"; };
 		50DBBCB5263C279A000C9093 /* constObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constObject.cpp; sourceTree = "<group>"; };
 		50DBBCB6263C279A000C9093 /* constObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = constObject.hpp; sourceTree = "<group>"; };
+		50DBBCB8263C5D2D000C9093 /* arrayAndClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrayAndClass.cpp; sourceTree = "<group>"; };
+		50DBBCB9263C5D2D000C9093 /* arrayAndClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = arrayAndClass.hpp; sourceTree = "<group>"; };
+		50DBBCBB264048C4000C9093 /* functionObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionObject.cpp; sourceTree = "<group>"; };
+		50DBBCBC264048C4000C9093 /* functionObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionObject.hpp; sourceTree = "<group>"; };
+		50DBBCBF26443C9C000C9093 /* extendsClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extendsClass.cpp; sourceTree = "<group>"; };
+		50DBBCC026443C9C000C9093 /* extendsClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = extendsClass.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +147,7 @@
 		501F33DD2623CABE00D755FE /* c++new */ = {
 			isa = PBXGroup;
 			children = (
+				50DBBCBE26443C3B000C9093 /* 6-继承和派生 */,
 				506D39F4263855D40094D83C /* 5-特殊函数和成员 */,
 				501F343E2631AB5C00D755FE /* 4-类和对象 */,
 				501F3418262BD8AA00D755FE /* practice */,
@@ -249,8 +259,21 @@
 				50A3845E2639CB2E007169F9 /* friendFunction.hpp */,
 				50DBBCB5263C279A000C9093 /* constObject.cpp */,
 				50DBBCB6263C279A000C9093 /* constObject.hpp */,
+				50DBBCB8263C5D2D000C9093 /* arrayAndClass.cpp */,
+				50DBBCB9263C5D2D000C9093 /* arrayAndClass.hpp */,
+				50DBBCBB264048C4000C9093 /* functionObject.cpp */,
+				50DBBCBC264048C4000C9093 /* functionObject.hpp */,
 			);
 			path = "5-特殊函数和成员";
+			sourceTree = "<group>";
+		};
+		50DBBCBE26443C3B000C9093 /* 6-继承和派生 */ = {
+			isa = PBXGroup;
+			children = (
+				50DBBCBF26443C9C000C9093 /* extendsClass.cpp */,
+				50DBBCC026443C9C000C9093 /* extendsClass.hpp */,
+			);
+			path = "6-继承和派生";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,7 +351,9 @@
 				501F3424262BE12200D755FE /* functionConstOptions.cpp in Sources */,
 				501F345D26346D7C00D755FE /* dataMemberIsCustomObject.cpp in Sources */,
 				501F340326285D7400D755FE /* fs.cpp in Sources */,
+				50DBBCC126443C9C000C9093 /* extendsClass.cpp in Sources */,
 				501F34452633B25A00D755FE /* constructorClass.cpp in Sources */,
+				50DBBCBA263C5D2D000C9093 /* arrayAndClass.cpp in Sources */,
 				501F3461263472BF00D755FE /* ObjectAttribute.cpp in Sources */,
 				501F33DF2623CABE00D755FE /* main.cpp in Sources */,
 				501F341B262BD8FD00D755FE /* avecount.cpp in Sources */,
@@ -336,6 +361,7 @@
 				501F33F52625DC8500D755FE /* hello.cpp in Sources */,
 				50A3845F2639CB2E007169F9 /* friendFunction.cpp in Sources */,
 				501F34492633BDE100D755FE /* constructorNewClass.cpp in Sources */,
+				50DBBCBD264048C4000C9093 /* functionObject.cpp in Sources */,
 				501F342C262C405C00D755FE /* functionOverLoad.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
